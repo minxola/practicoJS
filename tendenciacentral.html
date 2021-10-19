@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Promedio, mediana y moda | Tercer taller curso práctico de JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Promedio, mediana y moda</h1>
+    </header>
+    <section>
+        <p>Ingresa lista de valores separados por comas ","</p>
+        <form action="">
+            <label for="lista">Ingresa lista:</label>
+            <input type="text" id="lista"><br>
+            <button type="button" onclick="calcular()">Calcular</button>
+            <button type="reset">Limpiar</button>
+            <br>
+            <i id="error"></i>
+        </form>
+    </section>
+    <section>
+        <h3>Media Aritmética</h3>
+        <p class="resultado" id="maOutput"></p>
+    </section>
+    <section>
+        <h3>Mediana</h3>
+        <p class="resultado" id="meOutput"></p>
+    </section>
+    <section>
+        <h3>Moda</h3>
+        <p class="resultado" id="moOutput"></p>
+    </section>
+    <section>
+        <h3>Media Armonica</h3>
+        <p class="resultado" id="armOutput"></p>
+    </section>
+    <section>
+        <h3>Media Geométrica</h3>
+        <p class="resultado" id="mgOutput"></p>
+    </section>
+        
+
+
+
+    <script src="./tendenciacentral.js"></script>
+</body>
+</html>

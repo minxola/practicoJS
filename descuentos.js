@@ -42,7 +42,7 @@ function precioFinal(){
             } else if (c && !descuento) {
                 const couponDiscount = c.discount;
                 finalPrice = calcularPrecio(finalPrice, couponDiscount);
-                cuponero.innerText = "Se le aplicó un cupon de descuento de: " + couponDiscount + "% y parará: S/." + finalPrice;
+                cuponero.innerText = "Se le aplicó un cupon de descuento de: " + couponDiscount + "% y pagará: S/." + finalPrice;
             }else{
                 const couponDiscount = 0;
                 finalPrice = calcularPrecio(finalPrice, couponDiscount);

@@ -25,3 +25,10 @@ button{
     border-radius: 5px;
     padding: 5px;
 }
+
+#error{
+    font-size: 12px;
+    font-style: italic;
+    color: crimson;
+    padding: 3px;
+}
